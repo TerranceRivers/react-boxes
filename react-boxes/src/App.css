@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.main{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  text-align: center; 
+  height: 80vh;
+}
+
+.sidebar {
+  padding: 9em;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.body {
+  display: flex; 
+  flex-direction: row;
+  padding: 9em;
+  border: 1px solid black;
+  text-align: center;
+  color: red
+}
+
+.footer {
+  border: black solid;
+  padding: 2em
+}
+
+.square {
+  margin: 5em;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  
+}
+
